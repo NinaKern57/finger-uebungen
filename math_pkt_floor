@@ -1,0 +1,23 @@
+import {terminal} from "./dfhi.js";
+
+/**
+ * Wir testen hier ob Math.round sich mit Math.floor unterscheidet.
+ *
+ * Math.floor : funktioniert auch mit einem negativem Argument + generiert auch
+ * zufallszahlen wenn min<0 und max>0 ist.
+ *
+ */
+window.main = function(...argv){
+    let min = -1000;
+    let max = 1000;
+
+    // Arondit à l'entier le plus grand ou l'entier le plus petit
+    let d = Math.round(Math.random() * (max + 1 - min) + min);
+    //Arondit à l'entier inférieur ou égal au nombre x (le nombre entre parenthèses).
+    // -> arondit donc que au plus petit
+    let d2 = Math.floor(Math.random() * (max + 1 - min) + min);
+
+terminal.printl(d);
+terminal.printl(d2);
+
+};
