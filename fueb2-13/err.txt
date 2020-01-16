@@ -1,0 +1,6 @@
+TypeError: document.getElementById(...) is null
+
+try {} catch {}
+
+output instant-echo: click { target: button#print-event, buttons: 0, clientX: 489, clientY: 15, layerX: 489, layerY: 15 }
+textbox: change { target: input#textbox, isTrusted: true, srcElement: input#textbox, currentTarget: input#textbox, eventPhase: 2, bubbles: true, cancelable: false, returnValue: true, defaultPrevented: false, composed: false, … }

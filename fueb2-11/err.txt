@@ -1,0 +1,3 @@
+TypeError: document.getElementById(...) is null
+
+try {} catch {}
